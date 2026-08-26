@@ -1,0 +1,236 @@
+# Navigate to your project
+cd F:\_CODE_\Python Projects\django-task-api
+
+# Replace .gitignore with complete version
+@"
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ============================================
+# VIRTUAL ENVIRONMENT
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+.env/
+*.env
+env.bak/
+venv.bak/
+
+# ============================================
+# DATABASES
+# ============================================
+*.db
+*.sqlite3
+db.sqlite3-journal
+*.sqlite
+*.mdb
+
+# ============================================
+# DJANGO SPECIFIC
+# ============================================
+media/
+static/
+staticfiles/
+*.ico
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+local_settings.py
+settings_local.py
+development.py
+production.py
+staging.py
+
+# ============================================
+# ENVIRONMENT VARIABLES
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+*.secret
+secrets/
+keys/
+
+# ============================================
+# LOGS
+# ============================================
+*.log
+logs/
+*.pid
+*.pid.lock
+*.seed
+*.seed.lock
+*.log.*
+debug.log
+error.log
+access.log
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+.vscode/
+*.code-workspace
+.vscode-test/
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+*.swp
+*.swo
+*~
+*.un~
+*.tmp
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ============================================
+# TESTING / COVERAGE
+# ============================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+*.cover
+*.py,cover
+.hypothesis/
+prof/
+
+# ============================================
+# PACKAGE MANAGEMENT
+# ============================================
+*.egg-info/
+*.egg
+*.dist-info/
+dist/
+build/
+wheels/
+share/python-wheels/
+MANIFEST
+pip-wheel-metadata/
+pip-log.txt
+
+# ============================================
+# CELERY
+# ============================================
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+celeryd.pid
+*.celery*
+
+# ============================================
+# DOCKER
+# ============================================
+*.pid
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+.dockerignore
+Dockerfile.local
+
+# ============================================
+# FRONTEND (if you add React/Vue later)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+*.min.js
+*.min.css
+
+# ============================================
+# MISC
+# ============================================
+*.bak
+*.backup
+*.orig
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.prof
+*.gcno
+*.gcda
+
+# ============================================
+# SECURITY
+# ============================================
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+*.csr
+*.der
+*.cer
+*.p7b
+*.p7c
+*.jks
+*.keystore
+*.truststore
+*.p8
+*.pub
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+*.pyc
+*.pyo
+*.pid
+*.seed
+*.log
+*.db
+*.sqlite3
+*.sqlite
+.svn/
+.hg/
+.coveragerc
+.cover
+.hypothesis/
+.ropeproject
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
